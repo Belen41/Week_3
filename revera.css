@@ -1,0 +1,237 @@
+.logo{
+	position:relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.logo h1{
+	display: block;
+    font-size: 2em;
+    font-weight: 800;
+    margin-top: 25px;
+    text-transform: uppercase;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.menu{
+	position:relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}	
+.menu ul{
+	padding: 0;
+	margin: 0;
+}
+.menu li{
+	float: left;
+	list-style-type: none;
+}
+.menu a{
+	display: inline-block;
+	width: auto;
+	padding: 19px 10px;
+	height: 100%;
+	background-color: #ffffff;
+	color: #696969;
+	text-decoration: none;
+	line-height: 100%;
+	text-align: center;
+}
+.slidebox{
+	max-height: 550px;
+    position: relative;
+    background: #000;
+}
+.slidebox img{
+	width: 100%;
+	display: block;
+	-webkit-filter: grayscale(100%);
+}
+.slidebox p{
+	font-size:14px;
+	line-height: 2;
+}
+.textbox{
+	width: 800px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -400px;
+    text-align: center;
+    z-index: 120;
+    color: #fff;
+}
+.textbox h2{
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #fff;
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+.textbox span{
+	width:20%;
+	display: block;
+	border: 1px solid #fff;
+	padding: 5px 0;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.widgets{
+	margin: 0;
+	background: #ed564b;
+	text-align: center;
+	padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61
+}
+.widgets h3 {
+	font-size: 24px
+	font-weight: bold;
+	margin-top: 20px
+	margin-bottom: 10px;
+	color:#ffffff;
+}
+.widgets p{
+	font-size: 100%;
+	text-align: center;
+	margin: 0 0 10px;
+	color:#ffffff;
+}
+.widgets span{
+	border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+.glyphicon{
+	color: #ffffff;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+}
+.sections {
+	border: 0;
+	margin: 0;
+}
+.section-title{
+	width: 100%;
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.section-title h2{
+	font-size: 24px;
+	font-weight:bold;
+	color:#000;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.section-title p{
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #aaa;
+	border-bottom: 1px solid #dfdfdf;
+}
+.projects h3{
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+.articles h3{
+	color: #000;
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+}
+.articles p{
+	text-size:14px;
+	margin: 10px 0 10px;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	display: block;
+	line-height: 1.6;
+}
+.articles span{
+	color: 	#606060;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.6;
+}
+.articles strong {
+	color:#f4473a;
+}
+.bottom {
+	margin-top: 5%;
+	background: #3b3b3b;
+	color: #606060;
+	background-color: #3b3b3b;
+	border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: rgb(237, 86, 75);
+}
+.bottom h3{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.1;
+	margin-bottom: 10px;
+	padding: 10px 0;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: left;
+}
+.bottom p{
+	font-size: 12px;
+	color: #aaa;
+	text-align: left;
+}
+.bottom ul li{
+	color: #aaa;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+	clear: left;
+	line-height: 18px;
+	padding: 7px 0 7px 0;
+	display: block;
+	margin: 0;
+}
+.bottom ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.bottom li{
+	margin:0;
+	padding: 0 0;
+	font-weight: 400;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: rgba(255, 255, 255, 0.2) 
+}
+.site-footer{
+	width:100%;
+	color: #ffffff;
+	background-color: #292929;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 0;
+}
